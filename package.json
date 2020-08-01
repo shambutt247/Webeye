@@ -4,7 +4,8 @@
   "scripts": {
     "reactClient": "cd client && npm run start",
     "server": "nodemon server.js",
-    "dev": "concurrently  \"node server\" \"npm run reactClient\" "
+    "dev": "concurrently  \"node server\" \"npm run reactClient\" ",
+    "build": "concurrently  \"node server\" \"npm run reactClient\" "
   },
   "dependencies": {
     "@material-ui/core": "^4.11.0",
