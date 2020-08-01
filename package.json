@@ -1,0 +1,22 @@
+{
+  "name": "example-create-react-app-express",
+  "version": "1.0.0",
+  "scripts": {
+    "reactClient": "cd client && npm run start",
+    "server": "nodemon server.js",
+    "dev": "concurrently  \"node server\" \"npm run reactClient\" "
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.16.4",
+    "firebase": "^7.17.1",
+    "react-number-format": "^4.4.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.2"
+  }
+}
